@@ -1,0 +1,19 @@
+Punto 1:
+Se puede notar que el tiempo e ejecucion el programa varia depende el procesador que tiene tu maquina, por lo cual no es predecible el tiempo de ejecucion.
+Procesos de “máxima velocidad posible”:
+ Sumar, restar, multiplicar y dividir.
+ Contar.
+ Comparaciones simples. 
+ Ejecutar bucles con numero limitado.
+ Un proceso de velocidad de respuesta no ependiente e la velocidad de procesamiento puede ser la comunicacion a traves de una red.
+Punto 2:
+Se puede notar el cambio en el tiempo de ejecucion. Ya que aL utilizar el programa con hilos se puede notar la mejora de el tiempo de respuesta del sistema ya que maneja todo simultaneamente.
+Si completan su ejecucion en el orden establecido ya que estan programados en tal orden que arranque en el hilo1 y terminen en el hilo3. Pero hay veces que puede variar segun como se ejecuta.
+Un escenario donde el multi-hilado mejore el tiempo de respuesta es un reproductor de musica o video. Al tener un hilo cargando la imagen, otro puede estar procesando la voz.
+Punto 3: 
+Se puede notar en cuanto al tiempo de ejecucion que el programa termianara en un tiempo corto debido a los hilos de suma y resta.
+Lo que sucede con el valor final del acumulador es que el dato puede ser erroneo por los multiplos hilos que modifican la variable al mismo tiempo. Lo que se puede hacer para solucionar esto sin sacar los hilos es usar un bloqueo para que solo un hilo pueda modificar la variable.
+Punto 4:
+Lo que sucede con el valor final del acumulador es que da el valor correcto del acumulador.
+Al respecto con el tiempo de ejecucion el prgrama, el programa termina en un tiempo corto debido a los hilos realizan operaciones simples.
+
